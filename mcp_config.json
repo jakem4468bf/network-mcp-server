@@ -1,0 +1,16 @@
+{
+    "mcpServers": {
+        "network-tools": {
+            "command": "python",
+            "args": [
+                "C:\\Users\\Jake\\network-mcp-server\\server.py"
+            ],
+            "env": {
+                "DEVICE_HOST": "localhost",
+                "DEVICE_PORT": "2201",
+                "DEVICE_USERNAME": "admin",
+                "DEVICE_PASSWORD": "admin"
+            }
+        }
+    }
+}

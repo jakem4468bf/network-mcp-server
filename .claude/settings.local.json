@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__network-tools__get_device_info",
+      "mcp__network-tools__get_interfaces",
+      "mcp__network-tools__configure_interface",
+      "mcp__network-tools__get_running_config",
+      "mcp__network-tools__get_routes",
+      "mcp__network-tools__add_static_route"
+    ]
+  }
+}
