@@ -23,7 +23,7 @@ exit
 write memory
 ```
 
-* You can now ssh into the router from you host machine using `ssh admin@localhost -p 2201`
+* You can now ssh into the router from your host machine using `ssh admin@localhost -p 2201`
 
 ## MCP server setup
 
