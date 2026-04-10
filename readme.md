@@ -9,7 +9,7 @@
 `docker import cEOS64-lab-4.32.0F.tar.xz ceos:4.32.0F`
 
 * After import check images using `docker images`
-* Create lab using provided topology file `containerlab deploy -t network_lab.yaml`
+* Create lab using provided topology file `containerlab deploy -t network_lab.yml`
 * Access CLI using `sudo docker exec -it r1 Cli`
 * Configure SSH on router 
 
