@@ -35,7 +35,7 @@ write memory
 
 * Download ollama from [Ollama](https://ollama.com/)
 * Download qwen3-coder:30b model using `ollama pull qwen3-coder:30b` (or any model you would like)
-* Launch claude code using `ollama launch claude --model qwen3-coder:30b -- --mcp-config "C:\Users\Jake\network-mcp-server\mcp_config.json"`
+* Launch claude code using `ollama launch claude --model qwen3-coder:30b -- --mcp-config "%USERPROFILE%\network-mcp-server\mcp_config.json"`
 * Ask away
 
 ## Tools are located in server.py file, netmiko is used for SSH connections and sending commands to the device. If you run into issues, there are tester files in the repo to test tools individually.
